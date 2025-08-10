@@ -1,4 +1,5 @@
 import './App.css'
+import Comments from './pages/Comment'
 import Counter from './pages/Counter/Counter'
 import InfiniteScroll from './pages/InfiniteScroll.jsx/InfiniteScroll'
 import Metronome from './pages/MetroNome/Metronome'
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <InfiniteScroll/>
+        <Comments/>
        </div>
     </>
   )

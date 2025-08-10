@@ -1,0 +1,36 @@
+.commentContainer {
+    margin:10px;
+}
+.commentItem {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.commentDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.actionBtn button {
+  margin: auto 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: blue;
+}
+.addReplyContainer{
+    width:100%;
+    margin:10px;
+}
+.addReplyInput{
+    width:95%;
+    padding:10px;
+    outline:none;
+    border: none;
+    border-bottom:1px solid
+}
