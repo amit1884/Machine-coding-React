@@ -1,6 +1,7 @@
 import './App.css'
 import Comments from './pages/Comment'
 import Counter from './pages/Counter/Counter'
+import DatePicker from './pages/CustomCalender'
 import CustomCheckbox from './pages/CustomCheckbox'
 import FileExplorer from './pages/FileSystem/FileExplorer'
 import InfiniteScroll from './pages/InfiniteScroll.jsx/InfiniteScroll'
@@ -8,6 +9,7 @@ import Metronome from './pages/MetroNome/Metronome'
 import OtpInput from './pages/OTPInput/OtpInput'
 import Pagination from './pages/Pagination'
 import ProgressBar from './pages/ProgressBar/ProgressBar'
+import TicketBooking from './pages/SeatManagement'
 import StarRating from './pages/StarRating'
 const options=[
   {
@@ -41,8 +43,7 @@ function App() {
   return (
     <>
       <div>
-       <CustomCheckbox options={options}/>
-       <StarRating/>
+   <DatePicker/>
        </div>
     </>
   )
