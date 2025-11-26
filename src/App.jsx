@@ -8,6 +8,7 @@ import Metronome from './pages/MetroNome/Metronome'
 import OtpInput from './pages/OTPInput/OtpInput'
 import Pagination from './pages/Pagination'
 import ProgressBar from './pages/ProgressBar/ProgressBar'
+import StarRating from './pages/StarRating'
 const options=[
   {
     id:1,name:'Amit'
@@ -41,6 +42,7 @@ function App() {
     <>
       <div>
        <CustomCheckbox options={options}/>
+       <StarRating/>
        </div>
     </>
   )
